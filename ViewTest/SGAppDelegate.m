@@ -7,6 +7,7 @@
 //
 
 #import "SGAppDelegate.h"
+#import "SGSimpleView.h"
 
 @implementation SGAppDelegate
 
@@ -14,7 +15,20 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
+    
+    // create view
+    CGRect frame1 = CGRectMake(50,50,100,100);
+    SGSimpleView* view1 = [[SGSimpleView alloc] initWithFrame:frame1];
+    view1.backgroundColor = [UIColor whiteColor];
+    [self.window addSubview:view1];
+    
+    // create second view
+    CGRect frame2 = CGRectMake(20,20,50,50);
+    SGSimpleView* view2 = [[SGSimpleView alloc] initWithFrame:frame2];
+    view2.backgroundColor = [UIColor blueColor];
+    [view1 addSubview:view2];
+    
+    self.window.backgroundColor = [UIColor redColor];
     [self.window makeKeyAndVisible];
     return YES;
 }

@@ -19,6 +19,7 @@
 		0A39E4DA19BFBF7500AB9CE0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A39E4C219BFBF7500AB9CE0 /* UIKit.framework */; };
 		0A39E4E219BFBF7500AB9CE0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0A39E4E019BFBF7500AB9CE0 /* InfoPlist.strings */; };
 		0A39E4E419BFBF7500AB9CE0 /* ViewTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A39E4E319BFBF7500AB9CE0 /* ViewTestTests.m */; };
+		0A39E4EF19BFC00200AB9CE0 /* SGSimpleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A39E4EE19BFC00200AB9CE0 /* SGSimpleView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,8 @@
 		0A39E4DF19BFBF7500AB9CE0 /* ViewTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ViewTestTests-Info.plist"; sourceTree = "<group>"; };
 		0A39E4E119BFBF7500AB9CE0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0A39E4E319BFBF7500AB9CE0 /* ViewTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewTestTests.m; sourceTree = "<group>"; };
+		0A39E4ED19BFC00200AB9CE0 /* SGSimpleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGSimpleView.h; sourceTree = "<group>"; };
+		0A39E4EE19BFC00200AB9CE0 /* SGSimpleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGSimpleView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +112,8 @@
 			children = (
 				0A39E4CD19BFBF7500AB9CE0 /* SGAppDelegate.h */,
 				0A39E4CE19BFBF7500AB9CE0 /* SGAppDelegate.m */,
+				0A39E4ED19BFC00200AB9CE0 /* SGSimpleView.h */,
+				0A39E4EE19BFC00200AB9CE0 /* SGSimpleView.m */,
 				0A39E4D019BFBF7500AB9CE0 /* Images.xcassets */,
 				0A39E4C519BFBF7500AB9CE0 /* Supporting Files */,
 			);
@@ -241,6 +246,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A39E4CF19BFBF7500AB9CE0 /* SGAppDelegate.m in Sources */,
+				0A39E4EF19BFC00200AB9CE0 /* SGSimpleView.m in Sources */,
 				0A39E4CB19BFBF7500AB9CE0 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
